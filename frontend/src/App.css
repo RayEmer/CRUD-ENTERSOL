@@ -1,0 +1,96 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #bfc1c2, #e6e7e8);
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.titulos-header {
+  margin-right: 60px;
+}
+
+.app-logo {
+  height: 50px;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.app-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.card.color-claro {
+  background-color: #bee4eb !important;
+  color: black !important;
+}
+
+.card.color-fuerte {
+  background-color: #beebbe !important;
+  color: black !important;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.card {
+  min-height: 100%;; /* Ajusta la altura mínima para que todas las tarjetas de la fila sean iguales */
+  height: 100%;
+}
+.card-body button {
+  margin: 5px; /* Añade margen entre los botones */
+  margin-bottom: 0px;
+}
+
+.card-body {
+  text-align: center; /* Centra los botones horizontalmente */
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Controla la distancia entre el switch y el texto */
+}
+
+.form-check-input {
+  width: 40px; /* Ajusta el tamaño del switch si es necesario */
+  height: 20px;
+  margin-left: -5px !important;
+
+}
+
+.form-check-label {
+  margin-bottom: 0;
+  font-weight: bold; /* O cualquier otro estilo para personalizar */
+}
